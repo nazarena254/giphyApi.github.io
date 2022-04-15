@@ -1,0 +1,17 @@
+.gif-container{
+    display:flexbox;
+    margin-left: 20px;
+    margin-top: 40px;
+  
+}
+.gifs1{
+   object-fit: cover;
+   max-width: 260px;
+   max-height: 260px;
+   margin: 5px 5px;
+}
+img{ 
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}

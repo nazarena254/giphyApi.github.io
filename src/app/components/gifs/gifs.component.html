@@ -1,0 +1,12 @@
+
+<!-- <button (click)="getTrendingGifs()">Trending</button> -->
+<div class="container row gif-container">    
+    <!-- <div class="row gifs" ngFor='let gif of gifs'>   
+        <img [src]="gifs.images.original.url" alt="gifimage">
+    </div> -->
+     <div *ngFor='let gif of gifs' class="gifs1" >
+        <img src={{gif.images.original.url}}> 
+     </div>
+    <!-- <img [src]="imagePath"> -->
+    <!-- <img *ngFor="let gif of gifs" src="{{gif.images.downsize.url}}"> -->
+</div>
